@@ -7,6 +7,29 @@ body {
     background-color: #f0f9f4; /* สีพื้นหลังอ่อนโทนเขียว */
     color: #2e3d32; /* สีข้อความเข้มโทนเขียว */
 }
+/* สําหรับแท็บเล็ต */
+@media (max-width: 768px) {
+    .grid-container {
+    grid-template-areas:
+    "header header"
+    "nav nav"
+    "main sidebar"
+    "footer footer";
+    grid-template-columns: 1fr 200px;
+    }
+    }
+    /* สําหรับมือถือ */
+    @media (max-width: 480px) {
+    .grid-container {
+    grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "sidebar"
+    "footer";
+    grid-template-columns: 1fr;
+    }
+    }
 
 /* Navbar */
 .navbar {
@@ -153,6 +176,7 @@ footer a:hover {
     background-color: #3e8e41 !important; /* สีเขียวเข้ม */
     border-color: #3e8e41 !important;
 }
+
 
 
 
