@@ -1,0 +1,156 @@
+/* Reset พื้นฐาน */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f9f4; /* สีพื้นหลังอ่อนโทนเขียว */
+    color: #2e3d32; /* สีข้อความเข้มโทนเขียว */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #4CAF50; /* สีเขียวธรรมชาติ */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: #c9f2d8; /* สีเขียวอ่อน */
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #c9f2d8;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #c9f2d8;
+}
+
+/* Hero Section */
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.carousel-caption h5 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #f0f9f4;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.carousel-caption p {
+    font-size: 1.2rem;
+    color: #f0f9f4;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #ffffff; /* สีพื้นหลังขาว */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4CAF50; /* สีเขียวธรรมชาติ */
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 10px;
+}
+
+.card-title {
+    color: #4CAF50;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #2e3d32; /* สีข้อความโทนเขียวเข้ม */
+}
+
+/* Contact Form */
+form .form-control {
+    border-radius: 8px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+form button {
+    border-radius: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #3e8e41; /* สีเขียวเข้ม */
+}
+
+/* Footer */
+footer {
+    background-color: #2e3d32; /* สีเขียวเข้ม */
+    color: white;
+}
+
+footer p, footer a {
+    font-size: 0.9rem;
+    color: white;
+}
+
+footer a:hover {
+    color: #c9f2d8; /* สีเขียวอ่อน */
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 300px;
+    }
+
+    footer .col-md-6 {
+        text-align: center;
+    }
+}
+/* Override Bootstrap primary color */
+.bg-primary {
+    background-color: #4CAF50 !important; /* สีเขียวธรรมชาติ */
+}
+
+.text-primary {
+    color: #4CAF50 !important; /* สีเขียวธรรมชาติ */
+}
+
+.btn-primary {
+    background-color: #4CAF50 !important;
+    border-color: #4CAF50 !important;
+}
+
+.btn-primary:hover {
+    background-color: #3e8e41 !important; /* สีเขียวเข้ม */
+    border-color: #3e8e41 !important;
+}
+
+
