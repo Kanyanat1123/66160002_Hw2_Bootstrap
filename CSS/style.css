@@ -22,6 +22,7 @@ body {
 
 .navbar-brand:hover {
     color: #c9f2d8; 
+
 }
 
 .nav-link {
@@ -152,5 +153,6 @@ footer a:hover {
     background-color: #3e8e41 !important; /* สีเขียวเข้ม */
     border-color: #3e8e41 !important;
 }
+
 
 
